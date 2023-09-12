@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body>
+    <section class="container">
+        <header class="cabecalho">
+
+            <a class="item" href="#sobre-mim">Sobre</a>
+            <a class="item" id="contact" href="https://wa.me/5585996427480">Contato</a>
+        </header>
+
+        <main class="inicio box">
+            <h1 class="texto-principal">Front-end Developer</h1>
+            <p class="subtexto">Transformando código em experiências envolventes.</p>
+            <img src="assets/perfil.png" alt="" class="img-perfil">
+        </main>
+
+        <div class="sobre-mim box" id="sobre-mim">
+            <div class="img">
+                <img class="img-meio" src="assets/img-meio.png" alt="">
+            </div>
+            <div class="sobre-mim-textos">
+                <h2 class="titulo-sobre-mim">Sobre mim
+                </h2>
+                <p class="paragrafo-sobre-mim">Olá! Me chamo Deivid, sou um entusiasta do mundo digital e um aspirante a programador front-end apaixonado por criar interfaces incríveis. Meu caminho começou com a curiosidade de como as páginas da web ganham vida, e desde então venho mergulhando no universo do HTML, CSS e JavaScript. Estou comprometido em aprender constantemente, aprimorar minhas habilidades e colaborar em projetos que tornem a web mais bonita e funcional. Este é o começo da minha jornada, e estou empolgado para compartilhar meu progresso e contribuições aqui neste portfólio. Vamos criar juntos!</p>
+            </div>
+        </div>
+
+        <h2 class="txt-projeto box">Projetos</h2>
+        <div class="projetos box">
+            <div class="box card-projeto">
+                <div class="card-img"><img  class="img-card" src="assets/Card-img-01.png" alt=""></div>
+                <h3 class="titulo-card">Otakus.Net</h3>
+                <p class="descricao-card">Plataforma de Streaming de animes, projeto feito todo em React</p>
+                <button class="botao-card"><a class="botao-card-ancora" href="https://otakues-net-mjjc.vercel.app/inicio" target="_blank">Ver Projeto </a></button>
+            </div>
+
+
+        <div class="box card-projeto">
+            <div class="card-img">
+                <img  class="img-card" src="assets/img-card-02.png" alt=""></div>
+                <h3 class="titulo-card">Wallpapers 4k</h3>
+                <p class="descricao-card">Site De Wallpapers,varios wallpapers disponiveis em 4k, projeto desenvolvido em Js</p>
+                <button class="botao-card"><a class="botao-card-ancora" href="https://dev-br18.github.io/Wallpapers_4k/" target="_blank">Ver Projeto </a></button>
+            </div>
+
+            <div class="box card-projeto">
+                <div class="card-img">
+                    <img  class="img-card" src="assets/Card-img-03.png" alt="">
+                </div>
+                <h3 class="titulo-card">Barbearia Alura</h3>
+                <p class="descricao-card">Site de loja, projeto desenvolvido apenas com css e html</p>
+                <button class="botao-card">
+                    <a class="botao-card-ancora" href="https://dev-br18.github.io/Barbearia_Alura/" target="_blank">Ver Projeto </a>
+                </button></div>
+        </div>
+
+        <footer class="footer box">
+            <hr>
+            <div class="footer-div">
+                <h2 class="txt-footer">&copy; Todos os direitos reservado a Deivid Daniel - Desenvolvido em 2023</h2>
+            </div>
+            
+        </footer>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal@4/dist/scrollreveal.min.js"></script>
+    <script>
+        const sr = ScrollReveal();
+
+        // Configure a animação
+        sr.reveal('.box', {
+         origin: 'bottom',
+         distance: '50px',
+        duration: 1000,
+        delay: 200,
+        easing: 'ease-in-out',
+        reset: true
+        });
+    </script>
+</body>
+</html>

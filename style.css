@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cabecalho{
+    padding: 30px;
+    text-align: right;
+    
+    width: 100%;
+}
+
+.item{
+    text-decoration: none;
+    color: black;
+    
+    padding: 10px;
+    font-size: 1.5rem;
+}
+#contact{
+    border: 2px solid #8E00FD;
+    border-radius: 50px;
+}
+.inicio{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+
+}
+.texto-principal{
+    font-size: 5.0rem;
+}
+.subtexto{
+    font-size: 1.5rem;
+}
+
+.img-perfil{
+    width: 250px;
+    height: auto
+}
+
+.sobre-mim{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.img{
+    flex: 1;
+}
+.sobre-mim-textos{
+    flex: 1;
+}
+.img-meio{
+    transform: scaleX(-1);
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.titulo-sobre-mim{
+    font-size: 2.5rem;
+}
+
+.paragrafo-sobre-mim{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.projetos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+.txt-projeto{
+    font-size: 4.0rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.box{
+    padding: 10px;
+
+}
+
+.card-projeto{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #8E00FD;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.img-card{
+    width: 180px;
+    height: 180px;
+}
+
+.descricao-card{
+    font-size: 1.0rem;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.botao-card{
+    background-color: #ffffff;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border-color: #8E00FD;
+}
+
+.botao-card-ancora{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.card-projeto:hover{
+    border-color: black;
+}
+
+.botao-card:hover{
+    border-color: red;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.footer-div{
+    padding: 30px;
+}
